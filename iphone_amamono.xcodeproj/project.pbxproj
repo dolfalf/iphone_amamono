@@ -24,6 +24,7 @@
 		B83D6DFE23601AD400C8F616 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83D6DFD23601AD400C8F616 /* SettingViewController.swift */; };
 		B83D6E0023601ADE00C8F616 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83D6DFF23601ADE00C8F616 /* Setting.storyboard */; };
 		B83D6E0223601D8800C8F616 /* MainSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83D6E0123601D8800C8F616 /* MainSearchViewController.swift */; };
+		B83D6E0B23604C4E00C8F616 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83D6E0A23604C4E00C8F616 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		B83D6DFD23601AD400C8F616 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		B83D6DFF23601ADE00C8F616 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		B83D6E0123601D8800C8F616 /* MainSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSearchViewController.swift; sourceTree = "<group>"; };
+		B83D6E0A23604C4E00C8F616 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		BC49DF1A4D1BACFC58A20C28 /* Pods-iphone_amamonoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphone_amamonoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iphone_amamonoTests/Pods-iphone_amamonoTests.release.xcconfig"; sourceTree = "<group>"; };
 		D3B2710325BBB73B818D47DF /* Pods-iphone_amamono.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphone_amamono.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iphone_amamono/Pods-iphone_amamono.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,11 +118,10 @@
 		408F1B83235EF6A700B86B0A /* iphone_amamono */ = {
 			isa = PBXGroup;
 			children = (
-				B83D6E032360291A00C8F616 /* main */,
-				B83D6DED236019CD00C8F616 /* home */,
-				B83D6DEE236019DB00C8F616 /* history */,
-				B83D6DEF236019FF00C8F616 /* favorite */,
-				B83D6DF023601A0C00C8F616 /* setting */,
+				B83D6E09236049B600C8F616 /* constant */,
+				B83D6E082360498C00C8F616 /* model */,
+				B83D6E072360498500C8F616 /* comm */,
+				B83D6E062360496F00C8F616 /* screen */,
 				408F1B84235EF6A700B86B0A /* AppDelegate.swift */,
 				408F1B86235EF6A700B86B0A /* SceneDelegate.swift */,
 				408F1B8F235EF6A700B86B0A /* Assets.xcassets */,
@@ -182,6 +183,40 @@
 				408F1B8C235EF6A700B86B0A /* Main.storyboard */,
 			);
 			path = main;
+			sourceTree = "<group>";
+		};
+		B83D6E062360496F00C8F616 /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				B83D6E032360291A00C8F616 /* main */,
+				B83D6DED236019CD00C8F616 /* home */,
+				B83D6DEE236019DB00C8F616 /* history */,
+				B83D6DEF236019FF00C8F616 /* favorite */,
+				B83D6DF023601A0C00C8F616 /* setting */,
+			);
+			path = screen;
+			sourceTree = "<group>";
+		};
+		B83D6E072360498500C8F616 /* comm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = comm;
+			sourceTree = "<group>";
+		};
+		B83D6E082360498C00C8F616 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B83D6E0A23604C4E00C8F616 /* Product.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B83D6E09236049B600C8F616 /* constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = constant;
 			sourceTree = "<group>";
 		};
 		DC2748A79FB287F8B0EF9661 /* Pods */ = {
@@ -368,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B83D6DF223601A3900C8F616 /* HomeViewController.swift in Sources */,
+				B83D6E0B23604C4E00C8F616 /* Product.swift in Sources */,
 				B83D6DFE23601AD400C8F616 /* SettingViewController.swift in Sources */,
 				B83D6DFA23601AB700C8F616 /* FavoriteViewController.swift in Sources */,
 				B83D6E0223601D8800C8F616 /* MainSearchViewController.swift in Sources */,
@@ -580,7 +616,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QN8T3L2FUY;
 				INFOPLIST_FILE = iphone_amamonoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -603,7 +638,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QN8T3L2FUY;
 				INFOPLIST_FILE = iphone_amamonoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

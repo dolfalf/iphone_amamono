@@ -7,6 +7,7 @@ target 'iphone_amamono' do
 
   # Pods for iphone_amamono
   pod 'BarcodeScanner'
+  pod 'RealmSwift'
   
   target 'iphone_amamonoTests' do
     inherit! :search_paths
