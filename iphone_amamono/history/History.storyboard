@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="o3F-jT-oCo">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--History-->
+        <scene sceneID="ZoP-Im-fjT">
+            <objects>
+                <viewController storyboardIdentifier="HistoryVC" id="o3F-jT-oCo" userLabel="History" customClass="HistoryViewController" customModule="iphone_amamono" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JaD-51-6g9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="History View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="scH-Am-1TK">
+                                <rect key="frame" x="110" y="426.5" width="194" height="43"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by HistoryViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkL-b5-1CC">
+                                <rect key="frame" x="101" y="477.5" width="212.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="scH-Am-1TK" secondAttribute="centerX" id="2eR-5r-awW"/>
+                            <constraint firstAttribute="centerY" secondItem="scH-Am-1TK" secondAttribute="centerY" id="IBE-pu-wRD"/>
+                            <constraint firstItem="zkL-b5-1CC" firstAttribute="centerX" secondItem="scH-Am-1TK" secondAttribute="centerX" id="JF3-SX-xAM"/>
+                            <constraint firstItem="zkL-b5-1CC" firstAttribute="top" secondItem="scH-Am-1TK" secondAttribute="bottom" constant="8" symbolic="YES" id="nau-Oe-Fvb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Oel-RW-Dxg"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="History" image="second" id="yw0-3x-9ht"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fry-Hs-Gpn" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="360"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="second" width="30" height="30"/>
+    </resources>
+</document>

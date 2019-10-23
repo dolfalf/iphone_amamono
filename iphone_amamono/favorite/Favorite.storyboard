@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DGX-GD-OBP">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Favorite-->
+        <scene sceneID="eFM-5o-0QE">
+            <objects>
+                <viewController storyboardIdentifier="FavoriteVC" id="DGX-GD-OBP" userLabel="Favorite" customClass="FavoriteViewController" customModule="iphone_amamono" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b6r-lw-OIT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Favorite View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="uQu-7S-JQu">
+                                <rect key="frame" x="104" y="426.5" width="206" height="43"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FavoriteViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bIw-rH-B8j">
+                                <rect key="frame" x="98.5" y="477.5" width="217" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="uQu-7S-JQu" secondAttribute="centerY" id="IyG-kZ-93U"/>
+                            <constraint firstItem="bIw-rH-B8j" firstAttribute="top" secondItem="uQu-7S-JQu" secondAttribute="bottom" constant="8" symbolic="YES" id="Pee-zX-Ztx"/>
+                            <constraint firstItem="bIw-rH-B8j" firstAttribute="centerX" secondItem="uQu-7S-JQu" secondAttribute="centerX" id="cg8-9T-TaB"/>
+                            <constraint firstAttribute="centerX" secondItem="uQu-7S-JQu" secondAttribute="centerX" id="swt-TU-hHX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NoU-ap-YDd"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Favorite" image="second" id="2xT-0O-lrq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f05-y1-O0S" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="360"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="second" width="30" height="30"/>
+    </resources>
+</document>

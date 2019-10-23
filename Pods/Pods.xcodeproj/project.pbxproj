@@ -3,320 +3,314 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		077352789728ADE279A51C8F0CFEAE10 /* info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D3CCCEEC9610C52DDD4B21DF0F017A /* info@3x.png */; };
-		0EEC2816F206EDD2F6FD64C573B9FAFF /* VideoPermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3C0D9C35BE6335EF94E8E8B00D1B78 /* VideoPermissionService.swift */; };
-		18491E0A2523DB6EFFA69A829BC478B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB076F6C1DD36BB3A3B20593324B995 /* Foundation.framework */; };
-		1FA73CE59A201DD907E73B1A83D14AD5 /* Pods-iphone_amamono-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E52915994AEFD62A8EBD59FC9C40A6D /* Pods-iphone_amamono-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		417505F0EE0E3EB591CADCD9EE28804F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA92F8D1C141B78D4A68543B8EACE8 /* CameraViewController.swift */; };
-		4C1D316F66FA9543D1884B2C2881AA44 /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72601A6AEE9FFA1C7E3E87DCE69BD5D3 /* HeaderViewController.swift */; };
-		4CB094E201C53DA1BCD05B635CBB14CB /* Pods-iphone_amamonoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4628DE613F8017E11B7EE655F9217A22 /* Pods-iphone_amamonoTests-dummy.m */; };
-		4ECC576942D706BFD720F8B75AC7514C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A589AD7A2FDD218BD9F8B6DF476A02CC /* Localizable.strings */; };
-		5CD239546F7B7EFCD01D4B7B81727166 /* BarcodeScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 47F7FA8A78439E57CBCB941D284646A0 /* BarcodeScanner.bundle */; };
-		5CEF622F9D13745D15CAA1F078B9822D /* Localization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7CCCD3BCC7A67E99B6681639BEA14B7B /* Localization.bundle */; };
-		60163C4E073E5368A4A54B714B3A05CD /* TorchMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B5237A9F53B1ADABB5D8A06BA3962F /* TorchMode.swift */; };
-		6F2276A649F7124FCEF0817894DA4CAD /* FocusViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDF35D8B92754AF0B405B815DC19329 /* FocusViewType.swift */; };
-		73BC4171937ADC512A56AAC096843352 /* BarcodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17ACC577000FF0FC38FCF3EDC0E6A34 /* BarcodeScannerViewController.swift */; };
-		7E23C4A9E4A1919214ACD9C622DBDE07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB076F6C1DD36BB3A3B20593324B995 /* Foundation.framework */; };
-		7F7013B21076B10758F9DA29870FCFE8 /* AVMetadataObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54D3A2C1D3B8F95753712924FA98061 /* AVMetadataObject+Extensions.swift */; };
-		7FE390680F002271936C63140A12F92F /* BarcodeScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FF2C4209C5822C14B5542CB585FEE6 /* BarcodeScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		893C3008B583E3960817F371E193A3C9 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BFAE5FE3B73BB4C3C51A42EB566C3E /* State.swift */; };
-		8B38F862D2C47C8B6ED4125D16678869 /* flashOff@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D68DC1B1EA19D4408B476D9075FA753B /* flashOff@3x.png */; };
-		9E8F421EA298BE84A738BCE696B5A68B /* Pods-iphone_amamono-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7EE29F15EAB8EAFC3497A96C9003D /* Pods-iphone_amamono-dummy.m */; };
-		ADD79470DBA0F33493B6E4F773186D93 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629873702BDFB9E21718A27C47B064C5 /* MessageViewController.swift */; };
-		B3BB3FE6FEEDDCCC6A1BE06D18B6987E /* BarcodeScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B86438A572546FF35F1406D8D75AB33E /* BarcodeScanner-dummy.m */; };
-		C4F18D7273E4C704663260FBA8C65265 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD7FA2D7DCF72A55B49ABFC54D7EF6B /* UIKit.framework */; };
-		C7EB290383678C3F6324B32CD2732F94 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7763564A6613F77B6035155E9A7AEC2 /* AVFoundation.framework */; };
-		D4D930C354A76A273F88BC3C5818790D /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F7E6ABE4F33C20BD5D6EFD23144BD /* Functions.swift */; };
-		D788DAD6E5C0E2C5A0856EA1803866C5 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F359A2CBDA196D52E4301D42F8854C9D /* UIView+Extensions.swift */; };
-		E55947BAB95BD5CE69CF80857C6D8278 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB076F6C1DD36BB3A3B20593324B995 /* Foundation.framework */; };
-		E739337285CAC5BE1D5E7FD9995FBD51 /* NSLayoutConstraint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E84E218EC9FF58A197531944DE732AF /* NSLayoutConstraint+Extensions.swift */; };
-		EB33D904651017D317E7156CE601FCE4 /* cameraRotate@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5184E7C824E70A5BA8030A310DA3F14 /* cameraRotate@3x.png */; };
-		ED809C9B362F9007D9390529B7150DBC /* flashOn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D406122DE6CBB384F1BBCBCA12D1B0 /* flashOn@3x.png */; };
-		F1A03724074765E1AC38E1A74CCCB9EB /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D60225F36C925B2FFA9405AFE40ED23 /* UIViewController+Extensions.swift */; };
-		F7AA311E8DA7FCCBEEE7C802604CD3A2 /* Pods-iphone_amamonoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 297AEB16B37FAFA2DDDEF5988DEA3668 /* Pods-iphone_amamonoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05519B9665090CCFB57090658A42AC99 /* FocusViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8B60C30BCDF651084F985E3602C373 /* FocusViewType.swift */; };
+		0906D44C9F22C07BD6A9A8B31BCD3FD0 /* Pods-iphone_amamonoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 696F743484BBBB2642E1B3D29D82F2A9 /* Pods-iphone_amamonoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09BEA257F62431C7B5B565E8FA0BF5B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */; };
+		0B087B29DEC4C87B8313DD679515DB1F /* flashOff@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6245AEA24CE65B7F30F96B5F9797B7E2 /* flashOff@3x.png */; };
+		15B6347CF50683E7C41F48FF0AD9A393 /* TorchMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF25EA2878A9F10898ED34C0F323B44 /* TorchMode.swift */; };
+		17618A4AA27551F8F40AACCF19CD1599 /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9452EE8ECF99DE4018B1A49D8B45D605 /* HeaderViewController.swift */; };
+		17E8F41AD1197DA7F604BC2B0DDC6FB6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA4E75E2E4A78CE04D139270A39EC986 /* Localizable.strings */; };
+		1E15B18846FC5096D0C088546D99C7E2 /* NSLayoutConstraint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48A5AC301EC1002ECF1543CE9954FD /* NSLayoutConstraint+Extensions.swift */; };
+		2D29B53D148CEFEEC09AD91339C3ACCF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F2D69082F838298F17993D8BA1FCE9 /* UIView+Extensions.swift */; };
+		41F242052C2436593E43638684A61038 /* Pods-iphone_amamonoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A120CA9B4591D042F5FC8ED5883F1 /* Pods-iphone_amamonoTests-dummy.m */; };
+		47C6FDD3E25D259665C8157A8D74250D /* Localization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 74F4D59B519920CD954D013FCD061B86 /* Localization.bundle */; };
+		4CE7E0E266DD512C1267EEAD9DC1258A /* BarcodeScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A263A657C7F4CD3DC91C919F69E88F6D /* BarcodeScanner-dummy.m */; };
+		50C90E4DF1433624D5805AD2DDC651D3 /* AVMetadataObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB65B77F44AACBC20E318D5EC6BE1A9D /* AVMetadataObject+Extensions.swift */; };
+		5357052101DABA8DA6F363DF4144EFD4 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BE7002FF48246B704D5AC5EDAA1405 /* CameraViewController.swift */; };
+		597082DFE8CE4E49E9FBBB7549EDAE14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */; };
+		65E68E8FDBD28A1305BCFF919971DBE1 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED337BA1B4EEB5603AE43AFF0C64083 /* State.swift */; };
+		65F589CDA610DC5F5100B39911A8AC8D /* BarcodeScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner.bundle */; };
+		77049B4D68394D240853DF8EBE9BB42F /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3C188D08ED60D7D12AD1C48E1D47D1 /* Functions.swift */; };
+		8EF2805338469B87D08850B8BD5AAABB /* BarcodeScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B9DBA1C0644C0CB46B84AB0AB58263A /* BarcodeScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		925D6D3D62BE0243E63A34FE8A239DEE /* VideoPermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A5F31E026D40D9C47EE17DA85E06E /* VideoPermissionService.swift */; };
+		93EAE51A99C3AF03107F89BDFA4F2A72 /* BarcodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685AE91D390FCAC227C374A25F1AF52 /* BarcodeScannerViewController.swift */; };
+		9413F49B96D1BDA38C55039C90AB5611 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03931DBFC2A5831F5BDFE4439CA992 /* MessageViewController.swift */; };
+		AC929DB86D6C32A3E9DAD482D703F02C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80ED7A3D19C791675B92A5B47AAE4D58 /* UIKit.framework */; };
+		AEA4C449668277F5A67C436E4AD07889 /* cameraRotate@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE030A76BE246064AA94761383296827 /* cameraRotate@3x.png */; };
+		AF8A2260E2E940DDF28FAECB7BC2F713 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807B91BC7AF8E56A4B6A7230410E1D9 /* UIViewController+Extensions.swift */; };
+		B3A445374394D3037608396F3397D05C /* Pods-iphone_amamono-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77862B947EE44A41AA3A45B264EA0444 /* Pods-iphone_amamono-dummy.m */; };
+		B4F3C8C09F756663B160A62B049A0B2E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B01D02F648FC21D052A90B4A54D5A6 /* AVFoundation.framework */; };
+		BE4BC8B31A189183835EAD3095586269 /* Pods-iphone_amamono-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D72B8AD4A1DA088197518E356DD6A423 /* Pods-iphone_amamono-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFF1AC15C249A61DC4EBAF9F3D6109B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */; };
+		DDF65C879E19115A4DA09F87120E321B /* flashOn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2E9C984870428AF84AA50669ABA352F /* flashOn@3x.png */; };
+		E00918185837C26D360277A53C6BEC8F /* info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8467DD92E613F2EF681E784CD979FD1A /* info@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		22696ECB82189792EE28132952E9BE0C /* PBXContainerItemProxy */ = {
+		25D80ECC51C3BB040A4F3E31A764B170 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 398FE8A5286F97D75EC5C62C09F56792;
-			remoteInfo = "BarcodeScanner-BarcodeScanner";
-		};
-		3CEA3B43802625E6306CF4DE23798B51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 39FC8B020BAFAD3C9E5D0E71C539C4F4;
+			remoteGlobalIDString = 39D656AC88E303625E9AA42D19C21D75;
 			remoteInfo = BarcodeScanner;
 		};
-		47A99F8A0526387FBCCF1B55DEFA94E1 /* PBXContainerItemProxy */ = {
+		37FAC825F60F91F8544649E10E80EC3D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9F77210E4EA4F195301C307A039D527B;
+			remoteGlobalIDString = 02E136446D8E897681981873306A783A;
+			remoteInfo = "BarcodeScanner-BarcodeScanner";
+		};
+		9B060A121A5ABC1DA9A2EBAC8D6AF475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2598A00DF974C904143778EDC46CC0E5;
 			remoteInfo = "BarcodeScanner-Localization";
 		};
-		713BA0EA12695B2917035191451D970D /* PBXContainerItemProxy */ = {
+		B6E5C1B578D8B03AA3459ED7AD40991A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BA88D345B850CDEFB5EC296B5FB5BE4A;
+			remoteGlobalIDString = 13A58A82A74CFD697EEB23B0DD970AD5;
 			remoteInfo = "Pods-iphone_amamono";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03C3D27B9EA196AC7807684489655D11 /* Pods-iphone_amamono-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iphone_amamono-acknowledgements.markdown"; sourceTree = "<group>"; };
-		07F13F5B5C401A03722B69C2D86EA979 /* Pods-iphone_amamono-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iphone_amamono-frameworks.sh"; sourceTree = "<group>"; };
-		0C3C0D9C35BE6335EF94E8E8B00D1B78 /* VideoPermissionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoPermissionService.swift; path = Sources/Helpers/VideoPermissionService.swift; sourceTree = "<group>"; };
-		0CD7FA2D7DCF72A55B49ABFC54D7EF6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		0E64FC664B66E384C1BBA2B355601C5A /* Pods-iphone_amamono.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iphone_amamono.debug.xcconfig"; sourceTree = "<group>"; };
-		0E84E218EC9FF58A197531944DE732AF /* NSLayoutConstraint+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Extensions.swift"; path = "Sources/Extensions/NSLayoutConstraint+Extensions.swift"; sourceTree = "<group>"; };
-		13FF2C4209C5822C14B5542CB585FEE6 /* BarcodeScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-umbrella.h"; sourceTree = "<group>"; };
-		17337B01057AC199B7B551FFFB49DD69 /* Pods_iphone_amamonoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iphone_amamonoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CDF35D8B92754AF0B405B815DC19329 /* FocusViewType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusViewType.swift; path = Sources/DataStructures/FocusViewType.swift; sourceTree = "<group>"; };
-		1E4B0B34D54E8608A9440D806C090824 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		25954F54DD5A1E11403E98438BCF8A2B /* Pods-iphone_amamonoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iphone_amamonoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		29202C1CA559083D55F613085627D65B /* Pods-iphone_amamonoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iphone_amamonoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		297AEB16B37FAFA2DDDEF5988DEA3668 /* Pods-iphone_amamonoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iphone_amamonoTests-umbrella.h"; sourceTree = "<group>"; };
-		2AA7EE29F15EAB8EAFC3497A96C9003D /* Pods-iphone_amamono-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iphone_amamono-dummy.m"; sourceTree = "<group>"; };
-		2E52915994AEFD62A8EBD59FC9C40A6D /* Pods-iphone_amamono-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iphone_amamono-umbrella.h"; sourceTree = "<group>"; };
-		37CA92F8D1C141B78D4A68543B8EACE8 /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = Sources/Controllers/CameraViewController.swift; sourceTree = "<group>"; };
-		3FD97D4C8DFBFEF34B4260E76DEC95EF /* Pods-iphone_amamonoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iphone_amamonoTests-resources.sh"; sourceTree = "<group>"; };
-		4243E8E6541081CF83D8CA0A6E811C6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45DA57849CA4AE47D7E2665150C0612C /* BarcodeScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarcodeScanner.xcconfig; sourceTree = "<group>"; };
-		4628DE613F8017E11B7EE655F9217A22 /* Pods-iphone_amamonoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iphone_amamonoTests-dummy.m"; sourceTree = "<group>"; };
-		47F7FA8A78439E57CBCB941D284646A0 /* BarcodeScanner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcodeScanner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FB076F6C1DD36BB3A3B20593324B995 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		53D6110DD6346FB1BB1A43BE2366C254 /* Pods-iphone_amamonoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iphone_amamonoTests.release.xcconfig"; sourceTree = "<group>"; };
-		5A3705D11396A251E8ADCA0302E326CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		629873702BDFB9E21718A27C47B064C5 /* MessageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageViewController.swift; path = Sources/Controllers/MessageViewController.swift; sourceTree = "<group>"; };
-		62BFAE5FE3B73BB4C3C51A42EB566C3E /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/DataStructures/State.swift; sourceTree = "<group>"; };
-		66109B0F0285E4B739BD0EB9BB876F47 /* ResourceBundle-Localization-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Localization-Info.plist"; sourceTree = "<group>"; };
-		72601A6AEE9FFA1C7E3E87DCE69BD5D3 /* HeaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderViewController.swift; path = Sources/Controllers/HeaderViewController.swift; sourceTree = "<group>"; };
-		7277DBC5F3D09670DE350A906FED95B4 /* Pods-iphone_amamono.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iphone_amamono.release.xcconfig"; sourceTree = "<group>"; };
-		7CCCD3BCC7A67E99B6681639BEA14B7B /* Localization.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Localization.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		845B18608E1DF607A914DC8330955588 /* Pods-iphone_amamono-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iphone_amamono-resources.sh"; sourceTree = "<group>"; };
-		91B5237A9F53B1ADABB5D8A06BA3962F /* TorchMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TorchMode.swift; path = Sources/DataStructures/TorchMode.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98B6C456865524197552B93314594CD3 /* Pods-iphone_amamonoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iphone_amamonoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9BC3931238FB1C8EF20F88DA184C7963 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9D195BAAC3189DD5379B76BD070EFCE6 /* Pods-iphone_amamono.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iphone_amamono.modulemap"; sourceTree = "<group>"; };
-		9D60225F36C925B2FFA9405AFE40ED23 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extensions.swift"; path = "Sources/Extensions/UIViewController+Extensions.swift"; sourceTree = "<group>"; };
-		A276498A06AF5E4B17639B4D87D1413F /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		B37017CE902318B1C0A0F4030EE844C8 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		B47F7E6ABE4F33C20BD5D6EFD23144BD /* Functions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functions.swift; path = Sources/Helpers/Functions.swift; sourceTree = "<group>"; };
-		B5184E7C824E70A5BA8030A310DA3F14 /* cameraRotate@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cameraRotate@3x.png"; path = "Images/cameraRotate@3x.png"; sourceTree = "<group>"; };
-		B86438A572546FF35F1406D8D75AB33E /* BarcodeScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BarcodeScanner-dummy.m"; sourceTree = "<group>"; };
-		BC71B15FB66AF89CB2A22C2B5508CAB4 /* Pods_iphone_amamono.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iphone_amamono.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C07039C57F9515B0889C800E01233D19 /* ResourceBundle-BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
-		C1215A2A0683E1DD24D8993E1E3F8DCC /* Pods-iphone_amamonoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iphone_amamonoTests-frameworks.sh"; sourceTree = "<group>"; };
-		C6E89731FF50AA44661B09BC94912BD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB8517BF8A3C82FD5681609E3DDB23B5 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "pl-PL.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		D2D3CCCEEC9610C52DDD4B21DF0F017A /* info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "info@3x.png"; path = "Images/info@3x.png"; sourceTree = "<group>"; };
-		D3A4F8CA0711F97A4EC277237B10DC70 /* BarcodeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BarcodeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D54D3A2C1D3B8F95753712924FA98061 /* AVMetadataObject+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVMetadataObject+Extensions.swift"; path = "Sources/Extensions/AVMetadataObject+Extensions.swift"; sourceTree = "<group>"; };
-		D672CC20DFBDF4100B5AFB8DE1C072FA /* BarcodeScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-prefix.pch"; sourceTree = "<group>"; };
-		D68DC1B1EA19D4408B476D9075FA753B /* flashOff@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashOff@3x.png"; path = "Images/flashOff@3x.png"; sourceTree = "<group>"; };
-		D7763564A6613F77B6035155E9A7AEC2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		E8D406122DE6CBB384F1BBCBCA12D1B0 /* flashOn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashOn@3x.png"; path = "Images/flashOn@3x.png"; sourceTree = "<group>"; };
-		F17ACC577000FF0FC38FCF3EDC0E6A34 /* BarcodeScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarcodeScannerViewController.swift; path = Sources/Controllers/BarcodeScannerViewController.swift; sourceTree = "<group>"; };
-		F2D5B3448A17A1450088534396EE0240 /* BarcodeScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BarcodeScanner.modulemap; sourceTree = "<group>"; };
-		F359A2CBDA196D52E4301D42F8854C9D /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "Sources/Extensions/UIView+Extensions.swift"; sourceTree = "<group>"; };
-		F6695C5EAFE0AC5F8B47E95856122B53 /* Pods-iphone_amamonoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iphone_amamonoTests.modulemap"; sourceTree = "<group>"; };
-		FE0BDA003A8C64D7C1820D515785F2AE /* Pods-iphone_amamono-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iphone_amamono-acknowledgements.plist"; sourceTree = "<group>"; };
+		03DD7572E6F2C752BDE37524144CECD3 /* Pods-iphone_amamonoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iphone_amamonoTests.release.xcconfig"; sourceTree = "<group>"; };
+		053817C9AD5917D93750F02360DB4AD6 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0B3C188D08ED60D7D12AD1C48E1D47D1 /* Functions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functions.swift; path = Sources/Helpers/Functions.swift; sourceTree = "<group>"; };
+		17A1BD314F92A1FE94DF30DB51A2438C /* Pods-iphone_amamonoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iphone_amamonoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1ED337BA1B4EEB5603AE43AFF0C64083 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/DataStructures/State.swift; sourceTree = "<group>"; };
+		27A8D353F25BEB71AB7E7CE15BB5DF4B /* Pods-iphone_amamonoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iphone_amamonoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2807B91BC7AF8E56A4B6A7230410E1D9 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extensions.swift"; path = "Sources/Extensions/UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		313C135F5E6A21AB16EFB12EA08F9DB0 /* Pods_iphone_amamono.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iphone_amamono.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3580927B8482ABDD15EB61597C099583 /* BarcodeScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-prefix.pch"; sourceTree = "<group>"; };
+		3E503302BC0AE7E0CB54C45143E1D53B /* Pods-iphone_amamonoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iphone_amamonoTests.modulemap"; sourceTree = "<group>"; };
+		4005EA60506BEB0EF30A0417FE57AE25 /* Pods-iphone_amamono-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iphone_amamono-acknowledgements.plist"; sourceTree = "<group>"; };
+		404D6B95E5CC67ACF74B545E846FDF3C /* Pods-iphone_amamono.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iphone_amamono.modulemap"; sourceTree = "<group>"; };
+		405678E14A5EC2B8DA230E3186B6E801 /* BarcodeScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarcodeScanner.xcconfig; sourceTree = "<group>"; };
+		53B01D02F648FC21D052A90B4A54D5A6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		5982DC552F041198B06BB653449548B1 /* Pods-iphone_amamonoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iphone_amamonoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A155456481C69CBE6380803C4970A1F /* Pods-iphone_amamono-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iphone_amamono-Info.plist"; sourceTree = "<group>"; };
+		6245AEA24CE65B7F30F96B5F9797B7E2 /* flashOff@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashOff@3x.png"; path = "Images/flashOff@3x.png"; sourceTree = "<group>"; };
+		64F0ACD6312C53C3195AE329434146DA /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		696F743484BBBB2642E1B3D29D82F2A9 /* Pods-iphone_amamonoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iphone_amamonoTests-umbrella.h"; sourceTree = "<group>"; };
+		717A5F31E026D40D9C47EE17DA85E06E /* VideoPermissionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoPermissionService.swift; path = Sources/Helpers/VideoPermissionService.swift; sourceTree = "<group>"; };
+		74F4D59B519920CD954D013FCD061B86 /* Localization.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Localization.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		77862B947EE44A41AA3A45B264EA0444 /* Pods-iphone_amamono-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iphone_amamono-dummy.m"; sourceTree = "<group>"; };
+		7EF25EA2878A9F10898ED34C0F323B44 /* TorchMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TorchMode.swift; path = Sources/DataStructures/TorchMode.swift; sourceTree = "<group>"; };
+		80ED7A3D19C791675B92A5B47AAE4D58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		82BE7002FF48246B704D5AC5EDAA1405 /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = Sources/Controllers/CameraViewController.swift; sourceTree = "<group>"; };
+		8467DD92E613F2EF681E784CD979FD1A /* info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "info@3x.png"; path = "Images/info@3x.png"; sourceTree = "<group>"; };
+		8B9DBA1C0644C0CB46B84AB0AB58263A /* BarcodeScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-umbrella.h"; sourceTree = "<group>"; };
+		90870BA32D6D2473B4DACBFDD21BC187 /* Pods_iphone_amamonoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iphone_amamonoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		929951784404B3DFEE121E979633801F /* Pods-iphone_amamono-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iphone_amamono-frameworks.sh"; sourceTree = "<group>"; };
+		9452EE8ECF99DE4018B1A49D8B45D605 /* HeaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderViewController.swift; path = Sources/Controllers/HeaderViewController.swift; sourceTree = "<group>"; };
+		97D5068E20174921B3C0842FC4BB75E0 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		99698EF3F606AF9F342C62A56A448ABB /* ResourceBundle-Localization-BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Localization-BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
+		99817A09AC6094D6EB67269CC6D0A2C9 /* Pods-iphone_amamonoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iphone_amamonoTests-Info.plist"; sourceTree = "<group>"; };
+		9B7A120CA9B4591D042F5FC8ED5883F1 /* Pods-iphone_amamonoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iphone_amamonoTests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A19CDD296930DEDEC476AFD6A5152839 /* ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
+		A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcodeScanner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A263A657C7F4CD3DC91C919F69E88F6D /* BarcodeScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BarcodeScanner-dummy.m"; sourceTree = "<group>"; };
+		A685AE91D390FCAC227C374A25F1AF52 /* BarcodeScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarcodeScannerViewController.swift; path = Sources/Controllers/BarcodeScannerViewController.swift; sourceTree = "<group>"; };
+		AD8B60C30BCDF651084F985E3602C373 /* FocusViewType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusViewType.swift; path = Sources/DataStructures/FocusViewType.swift; sourceTree = "<group>"; };
+		AF48A5AC301EC1002ECF1543CE9954FD /* NSLayoutConstraint+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Extensions.swift"; path = "Sources/Extensions/NSLayoutConstraint+Extensions.swift"; sourceTree = "<group>"; };
+		B4F2D69082F838298F17993D8BA1FCE9 /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "Sources/Extensions/UIView+Extensions.swift"; sourceTree = "<group>"; };
+		B7CA9759D39A515BF2D0A6DCFA62D78C /* Pods-iphone_amamono.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iphone_amamono.release.xcconfig"; sourceTree = "<group>"; };
+		C2DEA9CED90B5673AE34AE22E2F442CE /* BarcodeScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BarcodeScanner.modulemap; sourceTree = "<group>"; };
+		CEC6E08D351631DC655F4A648DE0C061 /* BarcodeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BarcodeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63AC3D5D1304B7F0109B307532FF6E8 /* Pods-iphone_amamono.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iphone_amamono.debug.xcconfig"; sourceTree = "<group>"; };
+		D72B8AD4A1DA088197518E356DD6A423 /* Pods-iphone_amamono-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iphone_amamono-umbrella.h"; sourceTree = "<group>"; };
+		DD176F77FB9F34864E99973610484DBC /* Pods-iphone_amamono-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iphone_amamono-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE030A76BE246064AA94761383296827 /* cameraRotate@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cameraRotate@3x.png"; path = "Images/cameraRotate@3x.png"; sourceTree = "<group>"; };
+		E6FBF177A9A98ADE40D0BCDE0EB30B9C /* BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
+		EB65B77F44AACBC20E318D5EC6BE1A9D /* AVMetadataObject+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVMetadataObject+Extensions.swift"; path = "Sources/Extensions/AVMetadataObject+Extensions.swift"; sourceTree = "<group>"; };
+		ED03931DBFC2A5831F5BDFE4439CA992 /* MessageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageViewController.swift; path = Sources/Controllers/MessageViewController.swift; sourceTree = "<group>"; };
+		F176B1A2CAD17564DD9BF115367F4EFC /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2E9C984870428AF84AA50669ABA352F /* flashOn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashOn@3x.png"; path = "Images/flashOn@3x.png"; sourceTree = "<group>"; };
+		F4C5E07ED13CE35A74CD55555F40012E /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "pl-PL.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00F9AA37569C19F66E13AF3535D8FD34 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C7EB290383678C3F6324B32CD2732F94 /* AVFoundation.framework in Frameworks */,
-				7E23C4A9E4A1919214ACD9C622DBDE07 /* Foundation.framework in Frameworks */,
-				C4F18D7273E4C704663260FBA8C65265 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E97AEF786A6C5DCE055B58657F0AAF9 /* Frameworks */ = {
+		393030ED09644D4BCA071F639095B152 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FDCB663409BAA15E7835AE13342A396 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E55947BAB95BD5CE69CF80857C6D8278 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6CAE702EA2644FE2389CCBACA7E1FB1E /* Frameworks */ = {
+		625E0E0CBF10B9C0878AEF34E097F397 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7506AB23B9F15ABFE64CCA6F80FE9605 /* Frameworks */ = {
+		954AAD2F8A7616C6C0FD7C2675853441 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18491E0A2523DB6EFFA69A829BC478B4 /* Foundation.framework in Frameworks */,
+				CFF1AC15C249A61DC4EBAF9F3D6109B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961E4886987478B7911D4F60DCCC108E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				597082DFE8CE4E49E9FBBB7549EDAE14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0ED06BCB1ADD6130307FACC52150102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F3C8C09F756663B160A62B049A0B2E /* AVFoundation.framework in Frameworks */,
+				09BEA257F62431C7B5B565E8FA0BF5B0 /* Foundation.framework in Frameworks */,
+				AC929DB86D6C32A3E9DAD482D703F02C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01213573C24E94EAB2F565BB58AE4C3F /* Pods */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1A58C04CB1E1F049D80B7C0EAC058A59 /* BarcodeScanner */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		0799027CDC86539BC9A0F70B8D64ED5F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				47F7FA8A78439E57CBCB941D284646A0 /* BarcodeScanner.bundle */,
-				D3A4F8CA0711F97A4EC277237B10DC70 /* BarcodeScanner.framework */,
-				7CCCD3BCC7A67E99B6681639BEA14B7B /* Localization.bundle */,
-				BC71B15FB66AF89CB2A22C2B5508CAB4 /* Pods_iphone_amamono.framework */,
-				17337B01057AC199B7B551FFFB49DD69 /* Pods_iphone_amamonoTests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				37227AB70A40F88ADE74F3719F143A73 /* iOS */,
+				DF8010B600FC99A0DCA5086146A2B24B /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1A58C04CB1E1F049D80B7C0EAC058A59 /* BarcodeScanner */ = {
+		32D609255E52C92E6143675234D816FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D54D3A2C1D3B8F95753712924FA98061 /* AVMetadataObject+Extensions.swift */,
-				F17ACC577000FF0FC38FCF3EDC0E6A34 /* BarcodeScannerViewController.swift */,
-				37CA92F8D1C141B78D4A68543B8EACE8 /* CameraViewController.swift */,
-				1CDF35D8B92754AF0B405B815DC19329 /* FocusViewType.swift */,
-				B47F7E6ABE4F33C20BD5D6EFD23144BD /* Functions.swift */,
-				72601A6AEE9FFA1C7E3E87DCE69BD5D3 /* HeaderViewController.swift */,
-				629873702BDFB9E21718A27C47B064C5 /* MessageViewController.swift */,
-				0E84E218EC9FF58A197531944DE732AF /* NSLayoutConstraint+Extensions.swift */,
-				62BFAE5FE3B73BB4C3C51A42EB566C3E /* State.swift */,
-				91B5237A9F53B1ADABB5D8A06BA3962F /* TorchMode.swift */,
-				F359A2CBDA196D52E4301D42F8854C9D /* UIView+Extensions.swift */,
-				9D60225F36C925B2FFA9405AFE40ED23 /* UIViewController+Extensions.swift */,
-				0C3C0D9C35BE6335EF94E8E8B00D1B78 /* VideoPermissionService.swift */,
-				EC79D39B1C7ECF64814FD1D30F974F1D /* Resources */,
-				BE61B6A0873314A82019DE8DAC43E114 /* Support Files */,
+				A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner.bundle */,
+				CEC6E08D351631DC655F4A648DE0C061 /* BarcodeScanner.framework */,
+				74F4D59B519920CD954D013FCD061B86 /* Localization.bundle */,
+				313C135F5E6A21AB16EFB12EA08F9DB0 /* Pods_iphone_amamono.framework */,
+				90870BA32D6D2473B4DACBFDD21BC187 /* Pods_iphone_amamonoTests.framework */,
 			);
-			path = BarcodeScanner;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		267EF4CEDEC8A29232046FDECF3D7075 /* Targets Support Files */ = {
+		463BBCB63AFB5357B5C5E4CE8B898522 /* Pods-iphone_amamono */ = {
 			isa = PBXGroup;
 			children = (
-				822076701B4CFAD23311C947A9B431D2 /* Pods-iphone_amamono */,
-				29D352CBF3E89AA0265E4BBE09DC8898 /* Pods-iphone_amamonoTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		29D352CBF3E89AA0265E4BBE09DC8898 /* Pods-iphone_amamonoTests */ = {
-			isa = PBXGroup;
-			children = (
-				4243E8E6541081CF83D8CA0A6E811C6A /* Info.plist */,
-				F6695C5EAFE0AC5F8B47E95856122B53 /* Pods-iphone_amamonoTests.modulemap */,
-				29202C1CA559083D55F613085627D65B /* Pods-iphone_amamonoTests-acknowledgements.markdown */,
-				25954F54DD5A1E11403E98438BCF8A2B /* Pods-iphone_amamonoTests-acknowledgements.plist */,
-				4628DE613F8017E11B7EE655F9217A22 /* Pods-iphone_amamonoTests-dummy.m */,
-				C1215A2A0683E1DD24D8993E1E3F8DCC /* Pods-iphone_amamonoTests-frameworks.sh */,
-				3FD97D4C8DFBFEF34B4260E76DEC95EF /* Pods-iphone_amamonoTests-resources.sh */,
-				297AEB16B37FAFA2DDDEF5988DEA3668 /* Pods-iphone_amamonoTests-umbrella.h */,
-				98B6C456865524197552B93314594CD3 /* Pods-iphone_amamonoTests.debug.xcconfig */,
-				53D6110DD6346FB1BB1A43BE2366C254 /* Pods-iphone_amamonoTests.release.xcconfig */,
-			);
-			name = "Pods-iphone_amamonoTests";
-			path = "Target Support Files/Pods-iphone_amamonoTests";
-			sourceTree = "<group>";
-		};
-		37227AB70A40F88ADE74F3719F143A73 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D7763564A6613F77B6035155E9A7AEC2 /* AVFoundation.framework */,
-				4FB076F6C1DD36BB3A3B20593324B995 /* Foundation.framework */,
-				0CD7FA2D7DCF72A55B49ABFC54D7EF6B /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				01213573C24E94EAB2F565BB58AE4C3F /* Pods */,
-				0799027CDC86539BC9A0F70B8D64ED5F /* Products */,
-				267EF4CEDEC8A29232046FDECF3D7075 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		822076701B4CFAD23311C947A9B431D2 /* Pods-iphone_amamono */ = {
-			isa = PBXGroup;
-			children = (
-				5A3705D11396A251E8ADCA0302E326CC /* Info.plist */,
-				9D195BAAC3189DD5379B76BD070EFCE6 /* Pods-iphone_amamono.modulemap */,
-				03C3D27B9EA196AC7807684489655D11 /* Pods-iphone_amamono-acknowledgements.markdown */,
-				FE0BDA003A8C64D7C1820D515785F2AE /* Pods-iphone_amamono-acknowledgements.plist */,
-				2AA7EE29F15EAB8EAFC3497A96C9003D /* Pods-iphone_amamono-dummy.m */,
-				07F13F5B5C401A03722B69C2D86EA979 /* Pods-iphone_amamono-frameworks.sh */,
-				845B18608E1DF607A914DC8330955588 /* Pods-iphone_amamono-resources.sh */,
-				2E52915994AEFD62A8EBD59FC9C40A6D /* Pods-iphone_amamono-umbrella.h */,
-				0E64FC664B66E384C1BBA2B355601C5A /* Pods-iphone_amamono.debug.xcconfig */,
-				7277DBC5F3D09670DE350A906FED95B4 /* Pods-iphone_amamono.release.xcconfig */,
+				404D6B95E5CC67ACF74B545E846FDF3C /* Pods-iphone_amamono.modulemap */,
+				DD176F77FB9F34864E99973610484DBC /* Pods-iphone_amamono-acknowledgements.markdown */,
+				4005EA60506BEB0EF30A0417FE57AE25 /* Pods-iphone_amamono-acknowledgements.plist */,
+				77862B947EE44A41AA3A45B264EA0444 /* Pods-iphone_amamono-dummy.m */,
+				929951784404B3DFEE121E979633801F /* Pods-iphone_amamono-frameworks.sh */,
+				5A155456481C69CBE6380803C4970A1F /* Pods-iphone_amamono-Info.plist */,
+				D72B8AD4A1DA088197518E356DD6A423 /* Pods-iphone_amamono-umbrella.h */,
+				D63AC3D5D1304B7F0109B307532FF6E8 /* Pods-iphone_amamono.debug.xcconfig */,
+				B7CA9759D39A515BF2D0A6DCFA62D78C /* Pods-iphone_amamono.release.xcconfig */,
 			);
 			name = "Pods-iphone_amamono";
 			path = "Target Support Files/Pods-iphone_amamono";
 			sourceTree = "<group>";
 		};
-		BE61B6A0873314A82019DE8DAC43E114 /* Support Files */ = {
+		7FC04E9AAA4C5271A3732F33ACD3992E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F2D5B3448A17A1450088534396EE0240 /* BarcodeScanner.modulemap */,
-				45DA57849CA4AE47D7E2665150C0612C /* BarcodeScanner.xcconfig */,
-				B86438A572546FF35F1406D8D75AB33E /* BarcodeScanner-dummy.m */,
-				D672CC20DFBDF4100B5AFB8DE1C072FA /* BarcodeScanner-prefix.pch */,
-				13FF2C4209C5822C14B5542CB585FEE6 /* BarcodeScanner-umbrella.h */,
-				C6E89731FF50AA44661B09BC94912BD6 /* Info.plist */,
-				C07039C57F9515B0889C800E01233D19 /* ResourceBundle-BarcodeScanner-Info.plist */,
-				66109B0F0285E4B739BD0EB9BB876F47 /* ResourceBundle-Localization-Info.plist */,
+				C2DEA9CED90B5673AE34AE22E2F442CE /* BarcodeScanner.modulemap */,
+				405678E14A5EC2B8DA230E3186B6E801 /* BarcodeScanner.xcconfig */,
+				A263A657C7F4CD3DC91C919F69E88F6D /* BarcodeScanner-dummy.m */,
+				E6FBF177A9A98ADE40D0BCDE0EB30B9C /* BarcodeScanner-Info.plist */,
+				3580927B8482ABDD15EB61597C099583 /* BarcodeScanner-prefix.pch */,
+				8B9DBA1C0644C0CB46B84AB0AB58263A /* BarcodeScanner-umbrella.h */,
+				A19CDD296930DEDEC476AFD6A5152839 /* ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist */,
+				99698EF3F606AF9F342C62A56A448ABB /* ResourceBundle-Localization-BarcodeScanner-Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/BarcodeScanner";
 			sourceTree = "<group>";
 		};
-		EC79D39B1C7ECF64814FD1D30F974F1D /* Resources */ = {
+		85D9386E567BD1767925E10C140DBD7B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B5184E7C824E70A5BA8030A310DA3F14 /* cameraRotate@3x.png */,
-				D68DC1B1EA19D4408B476D9075FA753B /* flashOff@3x.png */,
-				E8D406122DE6CBB384F1BBCBCA12D1B0 /* flashOn@3x.png */,
-				D2D3CCCEEC9610C52DDD4B21DF0F017A /* info@3x.png */,
-				A589AD7A2FDD218BD9F8B6DF476A02CC /* Localizable.strings */,
+				D1B8B0F32B09C71742E4C944D035B4BD /* BarcodeScanner */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9237EF173E85174593B0C40F916E416B /* Pods-iphone_amamonoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E503302BC0AE7E0CB54C45143E1D53B /* Pods-iphone_amamonoTests.modulemap */,
+				5982DC552F041198B06BB653449548B1 /* Pods-iphone_amamonoTests-acknowledgements.markdown */,
+				27A8D353F25BEB71AB7E7CE15BB5DF4B /* Pods-iphone_amamonoTests-acknowledgements.plist */,
+				9B7A120CA9B4591D042F5FC8ED5883F1 /* Pods-iphone_amamonoTests-dummy.m */,
+				99817A09AC6094D6EB67269CC6D0A2C9 /* Pods-iphone_amamonoTests-Info.plist */,
+				696F743484BBBB2642E1B3D29D82F2A9 /* Pods-iphone_amamonoTests-umbrella.h */,
+				17A1BD314F92A1FE94DF30DB51A2438C /* Pods-iphone_amamonoTests.debug.xcconfig */,
+				03DD7572E6F2C752BDE37524144CECD3 /* Pods-iphone_amamonoTests.release.xcconfig */,
+			);
+			name = "Pods-iphone_amamonoTests";
+			path = "Target Support Files/Pods-iphone_amamonoTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				85D9386E567BD1767925E10C140DBD7B /* Pods */,
+				32D609255E52C92E6143675234D816FE /* Products */,
+				EDFA4B25F850D7F6E43FE757A320A568 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1B8B0F32B09C71742E4C944D035B4BD /* BarcodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				EB65B77F44AACBC20E318D5EC6BE1A9D /* AVMetadataObject+Extensions.swift */,
+				A685AE91D390FCAC227C374A25F1AF52 /* BarcodeScannerViewController.swift */,
+				82BE7002FF48246B704D5AC5EDAA1405 /* CameraViewController.swift */,
+				AD8B60C30BCDF651084F985E3602C373 /* FocusViewType.swift */,
+				0B3C188D08ED60D7D12AD1C48E1D47D1 /* Functions.swift */,
+				9452EE8ECF99DE4018B1A49D8B45D605 /* HeaderViewController.swift */,
+				ED03931DBFC2A5831F5BDFE4439CA992 /* MessageViewController.swift */,
+				AF48A5AC301EC1002ECF1543CE9954FD /* NSLayoutConstraint+Extensions.swift */,
+				1ED337BA1B4EEB5603AE43AFF0C64083 /* State.swift */,
+				7EF25EA2878A9F10898ED34C0F323B44 /* TorchMode.swift */,
+				B4F2D69082F838298F17993D8BA1FCE9 /* UIView+Extensions.swift */,
+				2807B91BC7AF8E56A4B6A7230410E1D9 /* UIViewController+Extensions.swift */,
+				717A5F31E026D40D9C47EE17DA85E06E /* VideoPermissionService.swift */,
+				F70A9860F22E22E1AEE36C9DCEC07F18 /* Resources */,
+				7FC04E9AAA4C5271A3732F33ACD3992E /* Support Files */,
+			);
+			path = BarcodeScanner;
+			sourceTree = "<group>";
+		};
+		DF8010B600FC99A0DCA5086146A2B24B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				53B01D02F648FC21D052A90B4A54D5A6 /* AVFoundation.framework */,
+				2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */,
+				80ED7A3D19C791675B92A5B47AAE4D58 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EDFA4B25F850D7F6E43FE757A320A568 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				463BBCB63AFB5357B5C5E4CE8B898522 /* Pods-iphone_amamono */,
+				9237EF173E85174593B0C40F916E416B /* Pods-iphone_amamonoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F70A9860F22E22E1AEE36C9DCEC07F18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE030A76BE246064AA94761383296827 /* cameraRotate@3x.png */,
+				6245AEA24CE65B7F30F96B5F9797B7E2 /* flashOff@3x.png */,
+				F2E9C984870428AF84AA50669ABA352F /* flashOn@3x.png */,
+				8467DD92E613F2EF681E784CD979FD1A /* info@3x.png */,
+				DA4E75E2E4A78CE04D139270A39EC986 /* Localizable.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -324,40 +318,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		03DAC0635D6D3541179C798F1FFE3B94 /* Headers */ = {
+		38E2D558EE18596F58A501AC413A2837 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7AA311E8DA7FCCBEEE7C802604CD3A2 /* Pods-iphone_amamonoTests-umbrella.h in Headers */,
+				BE4BC8B31A189183835EAD3095586269 /* Pods-iphone_amamono-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94B148C6CBA9D24128365FA0E02BCD23 /* Headers */ = {
+		4F1768CA2BBD0B8BA4C89B64D4FF554A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FA73CE59A201DD907E73B1A83D14AD5 /* Pods-iphone_amamono-umbrella.h in Headers */,
+				0906D44C9F22C07BD6A9A8B31BCD3FD0 /* Pods-iphone_amamonoTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACB5CCE1E7B989569906320D790AE6E9 /* Headers */ = {
+		DF7E0ABAC8B049BCBAE417D931AB2E3C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FE390680F002271936C63140A12F92F /* BarcodeScanner-umbrella.h in Headers */,
+				8EF2805338469B87D08850B8BD5AAABB /* BarcodeScanner-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		398FE8A5286F97D75EC5C62C09F56792 /* BarcodeScanner-BarcodeScanner */ = {
+		02E136446D8E897681981873306A783A /* BarcodeScanner-BarcodeScanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98CEDC72AD1A0B41E914BA917B344756 /* Build configuration list for PBXNativeTarget "BarcodeScanner-BarcodeScanner" */;
+			buildConfigurationList = 5BC23F97FDF1EB24F1E66BE6E3A89B72 /* Build configuration list for PBXNativeTarget "BarcodeScanner-BarcodeScanner" */;
 			buildPhases = (
-				8F3F51E44F7FEB6E3EE4F183B4CFAD65 /* Sources */,
-				1E97AEF786A6C5DCE055B58657F0AAF9 /* Frameworks */,
-				20EE014233AF603E604DF19EBA82507C /* Resources */,
+				27E41EDCB6AF92800EA87BF878403294 /* Sources */,
+				625E0E0CBF10B9C0878AEF34E097F397 /* Frameworks */,
+				0BFDD3265361920127A2F57626AF1959 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -365,36 +359,35 @@
 			);
 			name = "BarcodeScanner-BarcodeScanner";
 			productName = "BarcodeScanner-BarcodeScanner";
-			productReference = 47F7FA8A78439E57CBCB941D284646A0 /* BarcodeScanner.bundle */;
+			productReference = A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		39FC8B020BAFAD3C9E5D0E71C539C4F4 /* BarcodeScanner */ = {
+		13A58A82A74CFD697EEB23B0DD970AD5 /* Pods-iphone_amamono */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 919CFDD709FAE219BB1288960C0EF534 /* Build configuration list for PBXNativeTarget "BarcodeScanner" */;
+			buildConfigurationList = E85E8C8C099D37A0D729B654295C38CA /* Build configuration list for PBXNativeTarget "Pods-iphone_amamono" */;
 			buildPhases = (
-				ACB5CCE1E7B989569906320D790AE6E9 /* Headers */,
-				5BFE89E7E217C85BD81D75E275F73384 /* Sources */,
-				00F9AA37569C19F66E13AF3535D8FD34 /* Frameworks */,
-				EF08A6D881813C859B702A7A7CB0057A /* Resources */,
+				38E2D558EE18596F58A501AC413A2837 /* Headers */,
+				B81C5264C45C749384BEA4FFAD4A48E8 /* Sources */,
+				961E4886987478B7911D4F60DCCC108E /* Frameworks */,
+				51C53C5C82CEEF67033BBB47E59849A0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				01D6D7276E8D99473BD4FFA02B9E5C1E /* PBXTargetDependency */,
-				B483C2FC48CB02868219FA0BF7B68A16 /* PBXTargetDependency */,
+				5084E6D4740C0D424E0D4599C4413543 /* PBXTargetDependency */,
 			);
-			name = BarcodeScanner;
-			productName = BarcodeScanner;
-			productReference = D3A4F8CA0711F97A4EC277237B10DC70 /* BarcodeScanner.framework */;
+			name = "Pods-iphone_amamono";
+			productName = "Pods-iphone_amamono";
+			productReference = 313C135F5E6A21AB16EFB12EA08F9DB0 /* Pods_iphone_amamono.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9F77210E4EA4F195301C307A039D527B /* BarcodeScanner-Localization */ = {
+		2598A00DF974C904143778EDC46CC0E5 /* BarcodeScanner-Localization */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81212477E47CAFE8934D5F9DFB8F3B31 /* Build configuration list for PBXNativeTarget "BarcodeScanner-Localization" */;
+			buildConfigurationList = 5E7B7DB809EF077BA08E749AB58485ED /* Build configuration list for PBXNativeTarget "BarcodeScanner-Localization" */;
 			buildPhases = (
-				AB5DE81B04469A9D29034C71EDED3BE7 /* Sources */,
-				6CAE702EA2644FE2389CCBACA7E1FB1E /* Frameworks */,
-				1332EED4C3AA6C748F00955C303C8702 /* Resources */,
+				8EC3D7ADC4CA4BF5481AB17CFC2924E1 /* Sources */,
+				393030ED09644D4BCA071F639095B152 /* Frameworks */,
+				E632E95170E48CA47BE5223701FF9058 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -402,217 +395,217 @@
 			);
 			name = "BarcodeScanner-Localization";
 			productName = "BarcodeScanner-Localization";
-			productReference = 7CCCD3BCC7A67E99B6681639BEA14B7B /* Localization.bundle */;
+			productReference = 74F4D59B519920CD954D013FCD061B86 /* Localization.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		BA88D345B850CDEFB5EC296B5FB5BE4A /* Pods-iphone_amamono */ = {
+		39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3D2158490A84D2D6EF0703325A2C86F /* Build configuration list for PBXNativeTarget "Pods-iphone_amamono" */;
+			buildConfigurationList = 642163D3FC89EC04AC75ECACA0EB0E1E /* Build configuration list for PBXNativeTarget "BarcodeScanner" */;
 			buildPhases = (
-				94B148C6CBA9D24128365FA0E02BCD23 /* Headers */,
-				7D88E27644F4F3B549E331901F9DA785 /* Sources */,
-				7506AB23B9F15ABFE64CCA6F80FE9605 /* Frameworks */,
-				9CC31C5A199E1CEC33C14AB0A717117B /* Resources */,
+				DF7E0ABAC8B049BCBAE417D931AB2E3C /* Headers */,
+				7CD91FF8C2BDC9D965FAE883A9B165EF /* Sources */,
+				D0ED06BCB1ADD6130307FACC52150102 /* Frameworks */,
+				CB9615C2F10792A5095C961B1164C37D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				396D0E94038200449CE444847A3CB3DD /* PBXTargetDependency */,
+				FA49DFF793D46A8A335F4794A253E1BF /* PBXTargetDependency */,
+				3D7F8098D8954950220D00E9B05B2249 /* PBXTargetDependency */,
 			);
-			name = "Pods-iphone_amamono";
-			productName = "Pods-iphone_amamono";
-			productReference = BC71B15FB66AF89CB2A22C2B5508CAB4 /* Pods_iphone_amamono.framework */;
+			name = BarcodeScanner;
+			productName = BarcodeScanner;
+			productReference = CEC6E08D351631DC655F4A648DE0C061 /* BarcodeScanner.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BE128D0DD63B837ECD1750F8E8D1C1C7 /* Pods-iphone_amamonoTests */ = {
+		6A79C477FA5EF40D0E57FD3959DE2EC8 /* Pods-iphone_amamonoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D5286E54C09694D8C10D1A81D27AEE1 /* Build configuration list for PBXNativeTarget "Pods-iphone_amamonoTests" */;
+			buildConfigurationList = 2B640BAAEC9C7833456B28D81A34685E /* Build configuration list for PBXNativeTarget "Pods-iphone_amamonoTests" */;
 			buildPhases = (
-				03DAC0635D6D3541179C798F1FFE3B94 /* Headers */,
-				0788FF43905154BB1FE5402C3B7B9953 /* Sources */,
-				4FDCB663409BAA15E7835AE13342A396 /* Frameworks */,
-				24600B5FCDE883D873847A8B6885361F /* Resources */,
+				4F1768CA2BBD0B8BA4C89B64D4FF554A /* Headers */,
+				BBD30DF263E2F2980D7A7A86A4D4E331 /* Sources */,
+				954AAD2F8A7616C6C0FD7C2675853441 /* Frameworks */,
+				0147758540BF385A5B2690FD7FB4FB58 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A9D90EA14473242A3F98F66EEE81B792 /* PBXTargetDependency */,
+				71DEB85882D4038821BD47AD42405147 /* PBXTargetDependency */,
 			);
 			name = "Pods-iphone_amamonoTests";
 			productName = "Pods-iphone_amamonoTests";
-			productReference = 17337B01057AC199B7B551FFFB49DD69 /* Pods_iphone_amamonoTests.framework */;
+			productReference = 90870BA32D6D2473B4DACBFDD21BC187 /* Pods_iphone_amamonoTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				de,
 				fr,
 				"pl-PL",
 				tr,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0799027CDC86539BC9A0F70B8D64ED5F /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 32D609255E52C92E6143675234D816FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				39FC8B020BAFAD3C9E5D0E71C539C4F4 /* BarcodeScanner */,
-				398FE8A5286F97D75EC5C62C09F56792 /* BarcodeScanner-BarcodeScanner */,
-				9F77210E4EA4F195301C307A039D527B /* BarcodeScanner-Localization */,
-				BA88D345B850CDEFB5EC296B5FB5BE4A /* Pods-iphone_amamono */,
-				BE128D0DD63B837ECD1750F8E8D1C1C7 /* Pods-iphone_amamonoTests */,
+				39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */,
+				02E136446D8E897681981873306A783A /* BarcodeScanner-BarcodeScanner */,
+				2598A00DF974C904143778EDC46CC0E5 /* BarcodeScanner-Localization */,
+				13A58A82A74CFD697EEB23B0DD970AD5 /* Pods-iphone_amamono */,
+				6A79C477FA5EF40D0E57FD3959DE2EC8 /* Pods-iphone_amamonoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1332EED4C3AA6C748F00955C303C8702 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4ECC576942D706BFD720F8B75AC7514C /* Localizable.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		20EE014233AF603E604DF19EBA82507C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EB33D904651017D317E7156CE601FCE4 /* cameraRotate@3x.png in Resources */,
-				8B38F862D2C47C8B6ED4125D16678869 /* flashOff@3x.png in Resources */,
-				ED809C9B362F9007D9390529B7150DBC /* flashOn@3x.png in Resources */,
-				077352789728ADE279A51C8F0CFEAE10 /* info@3x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		24600B5FCDE883D873847A8B6885361F /* Resources */ = {
+		0147758540BF385A5B2690FD7FB4FB58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CC31C5A199E1CEC33C14AB0A717117B /* Resources */ = {
+		0BFDD3265361920127A2F57626AF1959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA4C449668277F5A67C436E4AD07889 /* cameraRotate@3x.png in Resources */,
+				0B087B29DEC4C87B8313DD679515DB1F /* flashOff@3x.png in Resources */,
+				DDF65C879E19115A4DA09F87120E321B /* flashOn@3x.png in Resources */,
+				E00918185837C26D360277A53C6BEC8F /* info@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C53C5C82CEEF67033BBB47E59849A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF08A6D881813C859B702A7A7CB0057A /* Resources */ = {
+		CB9615C2F10792A5095C961B1164C37D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CD239546F7B7EFCD01D4B7B81727166 /* BarcodeScanner.bundle in Resources */,
-				5CEF622F9D13745D15CAA1F078B9822D /* Localization.bundle in Resources */,
+				65F589CDA610DC5F5100B39911A8AC8D /* BarcodeScanner.bundle in Resources */,
+				47C6FDD3E25D259665C8157A8D74250D /* Localization.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E632E95170E48CA47BE5223701FF9058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E8F41AD1197DA7F604BC2B0DDC6FB6 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0788FF43905154BB1FE5402C3B7B9953 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CB094E201C53DA1BCD05B635CBB14CB /* Pods-iphone_amamonoTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BFE89E7E217C85BD81D75E275F73384 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7F7013B21076B10758F9DA29870FCFE8 /* AVMetadataObject+Extensions.swift in Sources */,
-				B3BB3FE6FEEDDCCC6A1BE06D18B6987E /* BarcodeScanner-dummy.m in Sources */,
-				73BC4171937ADC512A56AAC096843352 /* BarcodeScannerViewController.swift in Sources */,
-				417505F0EE0E3EB591CADCD9EE28804F /* CameraViewController.swift in Sources */,
-				6F2276A649F7124FCEF0817894DA4CAD /* FocusViewType.swift in Sources */,
-				D4D930C354A76A273F88BC3C5818790D /* Functions.swift in Sources */,
-				4C1D316F66FA9543D1884B2C2881AA44 /* HeaderViewController.swift in Sources */,
-				ADD79470DBA0F33493B6E4F773186D93 /* MessageViewController.swift in Sources */,
-				E739337285CAC5BE1D5E7FD9995FBD51 /* NSLayoutConstraint+Extensions.swift in Sources */,
-				893C3008B583E3960817F371E193A3C9 /* State.swift in Sources */,
-				60163C4E073E5368A4A54B714B3A05CD /* TorchMode.swift in Sources */,
-				D788DAD6E5C0E2C5A0856EA1803866C5 /* UIView+Extensions.swift in Sources */,
-				F1A03724074765E1AC38E1A74CCCB9EB /* UIViewController+Extensions.swift in Sources */,
-				0EEC2816F206EDD2F6FD64C573B9FAFF /* VideoPermissionService.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D88E27644F4F3B549E331901F9DA785 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9E8F421EA298BE84A738BCE696B5A68B /* Pods-iphone_amamono-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F3F51E44F7FEB6E3EE4F183B4CFAD65 /* Sources */ = {
+		27E41EDCB6AF92800EA87BF878403294 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB5DE81B04469A9D29034C71EDED3BE7 /* Sources */ = {
+		7CD91FF8C2BDC9D965FAE883A9B165EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C90E4DF1433624D5805AD2DDC651D3 /* AVMetadataObject+Extensions.swift in Sources */,
+				4CE7E0E266DD512C1267EEAD9DC1258A /* BarcodeScanner-dummy.m in Sources */,
+				93EAE51A99C3AF03107F89BDFA4F2A72 /* BarcodeScannerViewController.swift in Sources */,
+				5357052101DABA8DA6F363DF4144EFD4 /* CameraViewController.swift in Sources */,
+				05519B9665090CCFB57090658A42AC99 /* FocusViewType.swift in Sources */,
+				77049B4D68394D240853DF8EBE9BB42F /* Functions.swift in Sources */,
+				17618A4AA27551F8F40AACCF19CD1599 /* HeaderViewController.swift in Sources */,
+				9413F49B96D1BDA38C55039C90AB5611 /* MessageViewController.swift in Sources */,
+				1E15B18846FC5096D0C088546D99C7E2 /* NSLayoutConstraint+Extensions.swift in Sources */,
+				65E68E8FDBD28A1305BCFF919971DBE1 /* State.swift in Sources */,
+				15B6347CF50683E7C41F48FF0AD9A393 /* TorchMode.swift in Sources */,
+				2D29B53D148CEFEEC09AD91339C3ACCF /* UIView+Extensions.swift in Sources */,
+				AF8A2260E2E940DDF28FAECB7BC2F713 /* UIViewController+Extensions.swift in Sources */,
+				925D6D3D62BE0243E63A34FE8A239DEE /* VideoPermissionService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC3D7ADC4CA4BF5481AB17CFC2924E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B81C5264C45C749384BEA4FFAD4A48E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A445374394D3037608396F3397D05C /* Pods-iphone_amamono-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD30DF263E2F2980D7A7A86A4D4E331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F242052C2436593E43638684A61038 /* Pods-iphone_amamonoTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		01D6D7276E8D99473BD4FFA02B9E5C1E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "BarcodeScanner-BarcodeScanner";
-			target = 398FE8A5286F97D75EC5C62C09F56792 /* BarcodeScanner-BarcodeScanner */;
-			targetProxy = 22696ECB82189792EE28132952E9BE0C /* PBXContainerItemProxy */;
-		};
-		396D0E94038200449CE444847A3CB3DD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BarcodeScanner;
-			target = 39FC8B020BAFAD3C9E5D0E71C539C4F4 /* BarcodeScanner */;
-			targetProxy = 3CEA3B43802625E6306CF4DE23798B51 /* PBXContainerItemProxy */;
-		};
-		A9D90EA14473242A3F98F66EEE81B792 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-iphone_amamono";
-			target = BA88D345B850CDEFB5EC296B5FB5BE4A /* Pods-iphone_amamono */;
-			targetProxy = 713BA0EA12695B2917035191451D970D /* PBXContainerItemProxy */;
-		};
-		B483C2FC48CB02868219FA0BF7B68A16 /* PBXTargetDependency */ = {
+		3D7F8098D8954950220D00E9B05B2249 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "BarcodeScanner-Localization";
-			target = 9F77210E4EA4F195301C307A039D527B /* BarcodeScanner-Localization */;
-			targetProxy = 47A99F8A0526387FBCCF1B55DEFA94E1 /* PBXContainerItemProxy */;
+			target = 2598A00DF974C904143778EDC46CC0E5 /* BarcodeScanner-Localization */;
+			targetProxy = 9B060A121A5ABC1DA9A2EBAC8D6AF475 /* PBXContainerItemProxy */;
+		};
+		5084E6D4740C0D424E0D4599C4413543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BarcodeScanner;
+			target = 39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */;
+			targetProxy = 25D80ECC51C3BB040A4F3E31A764B170 /* PBXContainerItemProxy */;
+		};
+		71DEB85882D4038821BD47AD42405147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-iphone_amamono";
+			target = 13A58A82A74CFD697EEB23B0DD970AD5 /* Pods-iphone_amamono */;
+			targetProxy = B6E5C1B578D8B03AA3459ED7AD40991A /* PBXContainerItemProxy */;
+		};
+		FA49DFF793D46A8A335F4794A253E1BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BarcodeScanner-BarcodeScanner";
+			target = 02E136446D8E897681981873306A783A /* BarcodeScanner-BarcodeScanner */;
+			targetProxy = 37FAC825F60F91F8544649E10E80EC3D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A589AD7A2FDD218BD9F8B6DF476A02CC /* Localizable.strings */ = {
+		DA4E75E2E4A78CE04D139270A39EC986 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9BC3931238FB1C8EF20F88DA184C7963 /* Localizable.strings */,
-				A276498A06AF5E4B17639B4D87D1413F /* Localizable.strings */,
-				B37017CE902318B1C0A0F4030EE844C8 /* Localizable.strings */,
-				CB8517BF8A3C82FD5681609E3DDB23B5 /* Localizable.strings */,
-				1E4B0B34D54E8608A9440D806C090824 /* Localizable.strings */,
+				64F0ACD6312C53C3195AE329434146DA /* Localizable.strings */,
+				F176B1A2CAD17564DD9BF115367F4EFC /* Localizable.strings */,
+				053817C9AD5917D93750F02360DB4AD6 /* Localizable.strings */,
+				F4C5E07ED13CE35A74CD55555F40012E /* Localizable.strings */,
+				97D5068E20174921B3C0842FC4BB75E0 /* Localizable.strings */,
 			);
 			name = Localizable.strings;
 			path = Localization;
@@ -621,9 +614,9 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		284D546570FBD0E653AF2CCF6DCFCB5A /* Release */ = {
+		0D6E912E1127B9B7085876F9259BCF98 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7277DBC5F3D09670DE350A906FED95B4 /* Pods-iphone_amamono.release.xcconfig */;
+			baseConfigurationReference = 17A1BD314F92A1FE94DF30DB51A2438C /* Pods-iphone_amamonoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -636,47 +629,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-iphone_amamono/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-iphone_amamonoTests/Pods-iphone_amamonoTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iphone_amamono/Pods-iphone_amamono.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7638663256C54E87AA3CA915897778D8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E64FC664B66E384C1BBA2B355601C5A /* Pods-iphone_amamono.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-iphone_amamono/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iphone_amamono/Pods-iphone_amamono.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-iphone_amamonoTests/Pods-iphone_amamonoTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -690,9 +652,25 @@
 			};
 			name = Debug;
 		};
-		7C71B9D8B09B45B3FD177340822D9982 /* Release */ = {
+		1305E5B56A4EEEFA30DBCA83B709DD04 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45DA57849CA4AE47D7E2665150C0612C /* BarcodeScanner.xcconfig */;
+			baseConfigurationReference = 405678E14A5EC2B8DA230E3186B6E801 /* BarcodeScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2D0144F8B2000C7A2149F78889FECF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 405678E14A5EC2B8DA230E3186B6E801 /* BarcodeScanner.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -704,17 +682,20 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/BarcodeScanner/BarcodeScanner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner.modulemap";
 				PRODUCT_MODULE_NAME = BarcodeScanner;
 				PRODUCT_NAME = BarcodeScanner;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -722,7 +703,73 @@
 			};
 			name = Release;
 		};
-		7F6C8DCDE01FBE3C5B5964FDA97F641D /* Debug */ = {
+		33A35D59C7199418B4FA8BE1F968E7DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 405678E14A5EC2B8DA230E3186B6E801 /* BarcodeScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-Localization-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Localization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		388C781818B0C8D6B1AAFA9068901DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 405678E14A5EC2B8DA230E3186B6E801 /* BarcodeScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BarcodeScanner/BarcodeScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner.modulemap";
+				PRODUCT_MODULE_NAME = BarcodeScanner;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F74E609F97E51797B2B5178C3BFC771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 405678E14A5EC2B8DA230E3186B6E801 /* BarcodeScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		510B057D2E9F059C50D52DA5D90F3ACF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -754,8 +801,121 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		76B1018508C4383122A086FE029B22A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03DD7572E6F2C752BDE37524144CECD3 /* Pods-iphone_amamonoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iphone_amamonoTests/Pods-iphone_amamonoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iphone_amamonoTests/Pods-iphone_amamonoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A485433CB28231EA47C5F95068CC831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 405678E14A5EC2B8DA230E3186B6E801 /* BarcodeScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-Localization-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Localization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		804E13245C9FBBE6A340C555CA8B2B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -783,138 +943,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		8BA17E00040D05FA1C4CFF387727AF56 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45DA57849CA4AE47D7E2665150C0612C /* BarcodeScanner.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BarcodeScanner/BarcodeScanner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner.modulemap";
-				PRODUCT_MODULE_NAME = BarcodeScanner;
-				PRODUCT_NAME = BarcodeScanner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		8EBC445CBA35804499E6A9605C1D745D /* Release */ = {
+		ADCE679B43255977BCAAFA51EB2446A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45DA57849CA4AE47D7E2665150C0612C /* BarcodeScanner.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
-				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-Localization-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = Localization;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		8FEE6659AD326E4C140BC5B20EC12CF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		931A4BDD18490E357982FE46C638F96B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45DA57849CA4AE47D7E2665150C0612C /* BarcodeScanner.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
-				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-BarcodeScanner-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = BarcodeScanner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		BB4E040D4BAE485193B9F4BD53680F85 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53D6110DD6346FB1BB1A43BE2366C254 /* Pods-iphone_amamonoTests.release.xcconfig */;
+			baseConfigurationReference = B7CA9759D39A515BF2D0A6DCFA62D78C /* Pods-iphone_amamono.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -927,12 +963,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-iphone_amamonoTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-iphone_amamono/Pods-iphone_amamono-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iphone_amamonoTests/Pods-iphone_amamonoTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-iphone_amamono/Pods-iphone_amamono.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -947,41 +987,9 @@
 			};
 			name = Release;
 		};
-		E1276E94EF0DED06480F8F47AAEAC533 /* Debug */ = {
+		E4A904C4B78B11145D89DCA45BD03D31 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45DA57849CA4AE47D7E2665150C0612C /* BarcodeScanner.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
-				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-Localization-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = Localization;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		F7E1641D057A429DB8590F8BC6EC8C40 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45DA57849CA4AE47D7E2665150C0612C /* BarcodeScanner.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
-				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-BarcodeScanner-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = BarcodeScanner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		F889D629D28CD6C1299A9072CA0B93D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98B6C456865524197552B93314594CD3 /* Pods-iphone_amamonoTests.debug.xcconfig */;
+			baseConfigurationReference = D63AC3D5D1304B7F0109B307532FF6E8 /* Pods-iphone_amamono.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -994,12 +1002,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-iphone_amamonoTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-iphone_amamono/Pods-iphone_amamono-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iphone_amamonoTests/Pods-iphone_amamonoTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-iphone_amamono/Pods-iphone_amamono.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1016,61 +1028,61 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D5286E54C09694D8C10D1A81D27AEE1 /* Build configuration list for PBXNativeTarget "Pods-iphone_amamonoTests" */ = {
+		2B640BAAEC9C7833456B28D81A34685E /* Build configuration list for PBXNativeTarget "Pods-iphone_amamonoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F889D629D28CD6C1299A9072CA0B93D0 /* Debug */,
-				BB4E040D4BAE485193B9F4BD53680F85 /* Release */,
+				0D6E912E1127B9B7085876F9259BCF98 /* Debug */,
+				76B1018508C4383122A086FE029B22A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F6C8DCDE01FBE3C5B5964FDA97F641D /* Debug */,
-				8FEE6659AD326E4C140BC5B20EC12CF0 /* Release */,
+				804E13245C9FBBE6A340C555CA8B2B4C /* Debug */,
+				510B057D2E9F059C50D52DA5D90F3ACF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81212477E47CAFE8934D5F9DFB8F3B31 /* Build configuration list for PBXNativeTarget "BarcodeScanner-Localization" */ = {
+		5BC23F97FDF1EB24F1E66BE6E3A89B72 /* Build configuration list for PBXNativeTarget "BarcodeScanner-BarcodeScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E1276E94EF0DED06480F8F47AAEAC533 /* Debug */,
-				8EBC445CBA35804499E6A9605C1D745D /* Release */,
+				1305E5B56A4EEEFA30DBCA83B709DD04 /* Debug */,
+				3F74E609F97E51797B2B5178C3BFC771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		919CFDD709FAE219BB1288960C0EF534 /* Build configuration list for PBXNativeTarget "BarcodeScanner" */ = {
+		5E7B7DB809EF077BA08E749AB58485ED /* Build configuration list for PBXNativeTarget "BarcodeScanner-Localization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BA17E00040D05FA1C4CFF387727AF56 /* Debug */,
-				7C71B9D8B09B45B3FD177340822D9982 /* Release */,
+				33A35D59C7199418B4FA8BE1F968E7DF /* Debug */,
+				7A485433CB28231EA47C5F95068CC831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98CEDC72AD1A0B41E914BA917B344756 /* Build configuration list for PBXNativeTarget "BarcodeScanner-BarcodeScanner" */ = {
+		642163D3FC89EC04AC75ECACA0EB0E1E /* Build configuration list for PBXNativeTarget "BarcodeScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7E1641D057A429DB8590F8BC6EC8C40 /* Debug */,
-				931A4BDD18490E357982FE46C638F96B /* Release */,
+				388C781818B0C8D6B1AAFA9068901DE7 /* Debug */,
+				2D0144F8B2000C7A2149F78889FECF0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3D2158490A84D2D6EF0703325A2C86F /* Build configuration list for PBXNativeTarget "Pods-iphone_amamono" */ = {
+		E85E8C8C099D37A0D729B654295C38CA /* Build configuration list for PBXNativeTarget "Pods-iphone_amamono" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7638663256C54E87AA3CA915897778D8 /* Debug */,
-				284D546570FBD0E653AF2CCF6DCFCB5A /* Release */,
+				E4A904C4B78B11145D89DCA45BD03D31 /* Debug */,
+				ADCE679B43255977BCAAFA51EB2446A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

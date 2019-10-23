@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pDv-hY-lbK">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="8tp-bX-7Pc">
+            <objects>
+                <viewController storyboardIdentifier="HomeVC" id="pDv-hY-lbK" userLabel="Home" customClass="HomeViewController" customModule="iphone_amamono" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aKF-R0-HGG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Home" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="1Gq-6Y-VsH">
+                                <rect key="frame" x="160.5" y="426.5" width="93.5" height="43"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by HomeViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYS-dc-W43">
+                                <rect key="frame" x="105" y="477.5" width="204" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="1Gq-6Y-VsH" secondAttribute="centerX" id="Atr-NP-ZSX"/>
+                            <constraint firstItem="bYS-dc-W43" firstAttribute="centerX" secondItem="1Gq-6Y-VsH" secondAttribute="centerX" id="Xuz-oW-6ms"/>
+                            <constraint firstItem="bYS-dc-W43" firstAttribute="top" secondItem="1Gq-6Y-VsH" secondAttribute="bottom" constant="8" symbolic="YES" id="c3w-zU-fa7"/>
+                            <constraint firstAttribute="centerY" secondItem="1Gq-6Y-VsH" secondAttribute="centerY" id="chR-u0-IWI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hSp-2W-ZYf"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="first" id="M8d-oc-2qh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pK5-Qx-z7s" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="-320"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+    </resources>
+</document>

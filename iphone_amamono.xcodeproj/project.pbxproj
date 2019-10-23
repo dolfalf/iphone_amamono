@@ -3,20 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		408F1B85235EF6A700B86B0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F1B84235EF6A700B86B0A /* AppDelegate.swift */; };
 		408F1B87235EF6A700B86B0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F1B86235EF6A700B86B0A /* SceneDelegate.swift */; };
-		408F1B89235EF6A700B86B0A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F1B88235EF6A700B86B0A /* FirstViewController.swift */; };
-		408F1B8B235EF6A700B86B0A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F1B8A235EF6A700B86B0A /* SecondViewController.swift */; };
 		408F1B8E235EF6A700B86B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408F1B8C235EF6A700B86B0A /* Main.storyboard */; };
 		408F1B90235EF6A700B86B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408F1B8F235EF6A700B86B0A /* Assets.xcassets */; };
 		408F1B93235EF6A700B86B0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408F1B91235EF6A700B86B0A /* LaunchScreen.storyboard */; };
 		408F1B9E235EF6A700B86B0A /* iphone_amamonoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F1B9D235EF6A700B86B0A /* iphone_amamonoTests.swift */; };
 		84897C95CAC33B8E8CD8B35E /* Pods_iphone_amamonoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6116CCFFAA63729C49592F /* Pods_iphone_amamonoTests.framework */; };
 		9665D611138E16CCE23E483E /* Pods_iphone_amamono.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AC7C5E038EB0B8B05F1176 /* Pods_iphone_amamono.framework */; };
+		B83D6DF223601A3900C8F616 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83D6DF123601A3900C8F616 /* HomeViewController.swift */; };
+		B83D6DF423601A5500C8F616 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83D6DF323601A5500C8F616 /* Home.storyboard */; };
+		B83D6DF623601A6A00C8F616 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83D6DF523601A6A00C8F616 /* HistoryViewController.swift */; };
+		B83D6DF823601A7700C8F616 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83D6DF723601A7700C8F616 /* History.storyboard */; };
+		B83D6DFA23601AB700C8F616 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83D6DF923601AB700C8F616 /* FavoriteViewController.swift */; };
+		B83D6DFC23601AC500C8F616 /* Favorite.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83D6DFB23601AC500C8F616 /* Favorite.storyboard */; };
+		B83D6DFE23601AD400C8F616 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83D6DFD23601AD400C8F616 /* SettingViewController.swift */; };
+		B83D6E0023601ADE00C8F616 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83D6DFF23601ADE00C8F616 /* Setting.storyboard */; };
+		B83D6E0223601D8800C8F616 /* MainSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83D6E0123601D8800C8F616 /* MainSearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +42,6 @@
 		408F1B81235EF6A700B86B0A /* iphone_amamono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iphone_amamono.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408F1B84235EF6A700B86B0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		408F1B86235EF6A700B86B0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		408F1B88235EF6A700B86B0A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		408F1B8A235EF6A700B86B0A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		408F1B8D235EF6A700B86B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		408F1B8F235EF6A700B86B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		408F1B92235EF6A700B86B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,6 +51,15 @@
 		408F1B9F235EF6A700B86B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70F17B00B11780095497998B /* Pods-iphone_amamono.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphone_amamono.release.xcconfig"; path = "Pods/Target Support Files/Pods-iphone_amamono/Pods-iphone_amamono.release.xcconfig"; sourceTree = "<group>"; };
 		8C6116CCFFAA63729C49592F /* Pods_iphone_amamonoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iphone_amamonoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83D6DF123601A3900C8F616 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B83D6DF323601A5500C8F616 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B83D6DF523601A6A00C8F616 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		B83D6DF723601A7700C8F616 /* History.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
+		B83D6DF923601AB700C8F616 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		B83D6DFB23601AC500C8F616 /* Favorite.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Favorite.storyboard; sourceTree = "<group>"; };
+		B83D6DFD23601AD400C8F616 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		B83D6DFF23601ADE00C8F616 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		B83D6E0123601D8800C8F616 /* MainSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSearchViewController.swift; sourceTree = "<group>"; };
 		BC49DF1A4D1BACFC58A20C28 /* Pods-iphone_amamonoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphone_amamonoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iphone_amamonoTests/Pods-iphone_amamonoTests.release.xcconfig"; sourceTree = "<group>"; };
 		D3B2710325BBB73B818D47DF /* Pods-iphone_amamono.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphone_amamono.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iphone_amamono/Pods-iphone_amamono.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,11 +116,13 @@
 		408F1B83235EF6A700B86B0A /* iphone_amamono */ = {
 			isa = PBXGroup;
 			children = (
+				B83D6E032360291A00C8F616 /* main */,
+				B83D6DED236019CD00C8F616 /* home */,
+				B83D6DEE236019DB00C8F616 /* history */,
+				B83D6DEF236019FF00C8F616 /* favorite */,
+				B83D6DF023601A0C00C8F616 /* setting */,
 				408F1B84235EF6A700B86B0A /* AppDelegate.swift */,
 				408F1B86235EF6A700B86B0A /* SceneDelegate.swift */,
-				408F1B88235EF6A700B86B0A /* FirstViewController.swift */,
-				408F1B8A235EF6A700B86B0A /* SecondViewController.swift */,
-				408F1B8C235EF6A700B86B0A /* Main.storyboard */,
 				408F1B8F235EF6A700B86B0A /* Assets.xcassets */,
 				408F1B91235EF6A700B86B0A /* LaunchScreen.storyboard */,
 				408F1B94235EF6A700B86B0A /* Info.plist */,
@@ -121,6 +137,51 @@
 				408F1B9F235EF6A700B86B0A /* Info.plist */,
 			);
 			path = iphone_amamonoTests;
+			sourceTree = "<group>";
+		};
+		B83D6DED236019CD00C8F616 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				B83D6DF123601A3900C8F616 /* HomeViewController.swift */,
+				B83D6DF323601A5500C8F616 /* Home.storyboard */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		B83D6DEE236019DB00C8F616 /* history */ = {
+			isa = PBXGroup;
+			children = (
+				B83D6DF523601A6A00C8F616 /* HistoryViewController.swift */,
+				B83D6DF723601A7700C8F616 /* History.storyboard */,
+			);
+			path = history;
+			sourceTree = "<group>";
+		};
+		B83D6DEF236019FF00C8F616 /* favorite */ = {
+			isa = PBXGroup;
+			children = (
+				B83D6DF923601AB700C8F616 /* FavoriteViewController.swift */,
+				B83D6DFB23601AC500C8F616 /* Favorite.storyboard */,
+			);
+			path = favorite;
+			sourceTree = "<group>";
+		};
+		B83D6DF023601A0C00C8F616 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				B83D6DFD23601AD400C8F616 /* SettingViewController.swift */,
+				B83D6DFF23601ADE00C8F616 /* Setting.storyboard */,
+			);
+			path = setting;
+			sourceTree = "<group>";
+		};
+		B83D6E032360291A00C8F616 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				B83D6E0123601D8800C8F616 /* MainSearchViewController.swift */,
+				408F1B8C235EF6A700B86B0A /* Main.storyboard */,
+			);
+			path = main;
 			sourceTree = "<group>";
 		};
 		DC2748A79FB287F8B0EF9661 /* Pods */ = {
@@ -220,7 +281,11 @@
 			files = (
 				408F1B93235EF6A700B86B0A /* LaunchScreen.storyboard in Resources */,
 				408F1B90235EF6A700B86B0A /* Assets.xcassets in Resources */,
+				B83D6E0023601ADE00C8F616 /* Setting.storyboard in Resources */,
+				B83D6DFC23601AC500C8F616 /* Favorite.storyboard in Resources */,
 				408F1B8E235EF6A700B86B0A /* Main.storyboard in Resources */,
+				B83D6DF823601A7700C8F616 /* History.storyboard in Resources */,
+				B83D6DF423601A5500C8F616 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,20 +349,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-iphone_amamono/Pods-iphone_amamono-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BarcodeScanner/BarcodeScanner.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-iphone_amamono/Pods-iphone_amamono-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BarcodeScanner.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-iphone_amamono/Pods-iphone_amamono-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iphone_amamono/Pods-iphone_amamono-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iphone_amamono/Pods-iphone_amamono-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -307,8 +367,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				408F1B8B235EF6A700B86B0A /* SecondViewController.swift in Sources */,
-				408F1B89235EF6A700B86B0A /* FirstViewController.swift in Sources */,
+				B83D6DF223601A3900C8F616 /* HomeViewController.swift in Sources */,
+				B83D6DFE23601AD400C8F616 /* SettingViewController.swift in Sources */,
+				B83D6DFA23601AB700C8F616 /* FavoriteViewController.swift in Sources */,
+				B83D6E0223601D8800C8F616 /* MainSearchViewController.swift in Sources */,
+				B83D6DF623601A6A00C8F616 /* HistoryViewController.swift in Sources */,
 				408F1B85235EF6A700B86B0A /* AppDelegate.swift in Sources */,
 				408F1B87235EF6A700B86B0A /* SceneDelegate.swift in Sources */,
 			);
@@ -402,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -456,7 +519,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -472,16 +535,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1000;
 				DEVELOPMENT_TEAM = QN8T3L2FUY;
 				INFOPLIST_FILE = iphone_amamono/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.archive-asia.iphone-amamono";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -491,16 +556,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1000;
 				DEVELOPMENT_TEAM = QN8T3L2FUY;
 				INFOPLIST_FILE = iphone_amamono/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.archive-asia.iphone-amamono";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
