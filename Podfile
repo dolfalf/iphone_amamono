@@ -8,6 +8,9 @@ target 'iphone_amamono' do
   # Pods for iphone_amamono
   pod 'BarcodeScanner'
   pod 'RealmSwift'
+  pod 'SwiftyXMLParser', :git => 'https://github.com/yahoojapan/SwiftyXMLParser.git'
+#  pod 'Alamofire'
+  pod 'CryptoSwift', '~> 1.0'
   
   target 'iphone_amamonoTests' do
     inherit! :search_paths

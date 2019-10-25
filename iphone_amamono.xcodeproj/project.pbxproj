@@ -25,6 +25,7 @@
 		B83D6E0023601ADE00C8F616 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83D6DFF23601ADE00C8F616 /* Setting.storyboard */; };
 		B83D6E0223601D8800C8F616 /* MainSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83D6E0123601D8800C8F616 /* MainSearchViewController.swift */; };
 		B83D6E0B23604C4E00C8F616 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83D6E0A23604C4E00C8F616 /* Product.swift */; };
+		B86FEBA42362C0C6009CB235 /* AmazonRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FEBA32362C0C6009CB235 /* AmazonRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		B83D6DFF23601ADE00C8F616 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		B83D6E0123601D8800C8F616 /* MainSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSearchViewController.swift; sourceTree = "<group>"; };
 		B83D6E0A23604C4E00C8F616 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		B86FEB9F2362B369009CB235 /* AmazonSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonSerializer.swift; sourceTree = "<group>"; };
+		B86FEBA32362C0C6009CB235 /* AmazonRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonRequest.swift; sourceTree = "<group>"; };
 		BC49DF1A4D1BACFC58A20C28 /* Pods-iphone_amamonoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphone_amamonoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iphone_amamonoTests/Pods-iphone_amamonoTests.release.xcconfig"; sourceTree = "<group>"; };
 		D3B2710325BBB73B818D47DF /* Pods-iphone_amamono.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphone_amamono.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iphone_amamono/Pods-iphone_amamono.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -200,6 +203,8 @@
 		B83D6E072360498500C8F616 /* comm */ = {
 			isa = PBXGroup;
 			children = (
+				B86FEB9F2362B369009CB235 /* AmazonSerializer.swift */,
+				B86FEBA32362C0C6009CB235 /* AmazonRequest.swift */,
 			);
 			path = comm;
 			sourceTree = "<group>";
@@ -403,6 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B83D6DF223601A3900C8F616 /* HomeViewController.swift in Sources */,
+				B86FEBA42362C0C6009CB235 /* AmazonRequest.swift in Sources */,
 				B83D6E0B23604C4E00C8F616 /* Product.swift in Sources */,
 				B83D6DFE23601AD400C8F616 /* SettingViewController.swift in Sources */,
 				B83D6DFA23601AB700C8F616 /* FavoriteViewController.swift in Sources */,
